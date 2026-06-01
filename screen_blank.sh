@@ -13,7 +13,7 @@ EOF
 
 sudo tee /etc/dconf/db/local.d/00-screen-blank-lock > /dev/null <<'EOF'
 [org/gnome/desktop/session]
-idle-delay=uint32 120
+idle-delay=uint32 300
 
 [org/gnome/desktop/screensaver]
 lock-enabled=true
