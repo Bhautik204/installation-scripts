@@ -13,7 +13,7 @@ EOF
 
 sudo tee /etc/dconf/db/local.d/00-screen-blank-lock > /dev/null <<'EOF'
 [org/gnome/desktop/session]
-idle-delay=uint32 120
+idle-delay=uint32 300
 
 [org/gnome/desktop/screensaver]
 lock-enabled=true
@@ -29,5 +29,5 @@ EOF
 sudo dconf update
 
 echo "Done."
-echo "Screen will blank after 2 minutes and lock immediately."
+echo "Screen will blank after 5 minutes and lock immediately."
 echo "Log out and log back in, or reboot."
