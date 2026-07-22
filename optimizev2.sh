@@ -210,7 +210,6 @@ BLOAT_PACKAGES=(
     "gnome-2048"          # 2048 game
 
     # Media / entertainment not needed for dev
-    "rhythmbox"           # Music player
     "totem"               # GNOME video player
 
     # Office / document apps (use LibreOffice selectively or web)
@@ -222,7 +221,6 @@ BLOAT_PACKAGES=(
     "gnome-maps"          # Maps app (use browser instead)
     "gnome-weather"       # Weather app
     "gnome-clocks"        # Clocks app
-    "gnome-calendar"      # Calendar (redundant if using web calendar)
 
     # Printing stack — remove if no printer
     "cups"                # Common UNIX Printing System
