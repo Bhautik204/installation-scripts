@@ -17,7 +17,7 @@ idle-delay=uint32 120
 
 [org/gnome/desktop/screensaver]
 lock-enabled=true
-lock-delay=uint32 0
+lock-delay=uint32 5
 EOF
 
 sudo tee /etc/dconf/db/local.d/locks/screen-blank-lock > /dev/null <<'EOF'
