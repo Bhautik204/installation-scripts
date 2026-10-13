@@ -91,3 +91,5 @@ echo ""
 echo "  Launch from terminal : antigravity-ide"
 echo "  Launch from desktop  : Search 'Antigravity IDE' in your app menu"
 echo ""
+
+exit

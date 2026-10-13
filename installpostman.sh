@@ -104,3 +104,4 @@ echo ""
 echo "  Launch from terminal : postman"
 echo "  Launch from desktop  : Search 'Postman' in your app menu"
 echo ""
+exit

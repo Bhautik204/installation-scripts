@@ -31,3 +31,4 @@ sudo dconf update
 echo "Done."
 echo "Screen will blank after 2 minutes and lock immediately."
 echo "Log out and log back in, or reboot."
+exit

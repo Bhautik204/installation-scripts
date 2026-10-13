@@ -294,3 +294,4 @@ echo ""
 
 read -rp "  Reboot now? [y/N]: " ANS
 [[ "$ANS" =~ ^[Yy]$ ]] && reboot || echo "  Skipping reboot."
+exit
