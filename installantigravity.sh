@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Antigravity IDE Installer
-# Version: 2.1.1-6123990880747520 (linux-x64)
+# Version: 2.8.0-6733682917113856 (linux-x64)
 # ==============================================================================
 
 set -euo pipefail
 
 # ── Config ────────────────────────────────────────────────────────────────────
-DOWNLOAD_URL="https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.7.0-4507555968450560/linux-x64/Antigravity%20IDE.tar.gz"
+DOWNLOAD_URL="https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.8.0-6733682917113856/linux-x64/Antigravity%20IDE.tar.gz"
 ARCHIVE_NAME="Antigravity IDE.tar.gz"
 INSTALL_DIR="/opt/antigravity-ide"
 BIN_LINK="/usr/local/bin/antigravity-ide"
